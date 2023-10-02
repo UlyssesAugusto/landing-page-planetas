@@ -31,7 +31,7 @@ h2,
 h3,
 li {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 header {
@@ -141,8 +141,7 @@ li {
     padding: 2rem 1.5rem;
 }
 
-.interactive-content h2,
-.image-grid h2 {
+.interactive-content h2, .image-grid h2 {
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -359,7 +358,7 @@ footer {
     .interactive {
         margin: 0;
         text-align: left;
-        padding: 0;
+        padding: 0px;
         position: relative;
     }
 
@@ -409,7 +408,7 @@ footer {
     }
 
     .image-grid {
-        padding: 10;
+        padding: 10px;
         margin-bottom: 15rem;
     }
 

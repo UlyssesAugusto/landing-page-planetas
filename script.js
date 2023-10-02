@@ -1,14 +1,15 @@
 const open_btn = document.querySelector('.open');
 const close_btn = document.querySelector('.close');
+const mobile_nav = document.querySelector('.mobile-nav');
 
 open_btn.addEventListener('click', () => {
-  document.querySelector('.open').style.display = 'none';
-  document.querySelector('.close').style.display = 'inline';
-  document.querySelector('.mobile-nav').style.display = 'block';
+  open_btn.style.display = 'none';
+  close_btn.style.display = 'inline';
+  mobile_nav.style.display = 'block';
 });
 
 close_btn.addEventListener('click', () => {
-  document.querySelector('.open').style.display = 'inline';
-  document.querySelector('.close').style.display = 'none';
-  document.querySelector('.mobile-nav').style.display = 'none';
+  open_btn.style.display = 'inline';
+  close_btn.style.display = 'none';
+  mobile_nav.style.display = 'none';
 });
